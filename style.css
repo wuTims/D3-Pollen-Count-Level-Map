@@ -1,0 +1,106 @@
+.container {
+	/*border: 1px solid black;*/
+}
+
+svg {
+	/*border: 1px solid blue;*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+rect.bordered {
+  stroke: #E6E6E6;
+  stroke-width:2px;   
+}
+
+text.mono {
+  font-size: 9pt;
+  font-family: Consolas, courier;
+  fill: #888;
+}
+
+text.axis-workweek {
+  fill: #000;
+}
+
+text.axis-worktime {
+  fill: #000;
+}
+
+h1 {
+	font-family: 'Muli', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	margin: 0;
+    background: #56DA5B;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 10px 21px -1px rgba(0,0,0,0.5);
+}
+
+#month-label{
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	top: 62px;
+	position: relative;
+
+}
+
+.numbers {
+	font-family: 'Nunito', sans-serif;
+}
+
+#month-picker {
+	width: 27%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.dataset-button {
+  background: #6582E8;
+  border-radius: 6px;
+  font-family: Arial;
+  color: black;
+  font-weight: 700;
+  font-size: 15px;
+  width: 70px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.dataset-button:hover {
+  background: #258299;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer {
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background: #2BFF34;
+    font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 10px;
+}
+footer a{
+	text-decoration: none;
+}
+
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    background: #BFFF89;
+}

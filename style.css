@@ -43,8 +43,9 @@ h1 {
 	font-family: 'Nunito', sans-serif;
 	font-weight: 700;
 	text-align: center;
-	top: 62px;
+	top: 50px;
 	position: relative;
+	margin-top: 0px;
 
 }
 
@@ -103,4 +104,12 @@ html {
     position: relative;
     min-height: 100%;
     background: #BFFF89;
+}
+
+#description {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 0;
+	font-family: 'Muli', sans-serif;
+	font-weight: 400;
 }

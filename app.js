@@ -6,7 +6,7 @@ var legendWidth = gridSize;
 
 var colors = ["#00ff55", "#00802b", "#fbfb00", "#f7ab0d", "#e65c00", "#ff2f44", "#ff0000",];
 var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-var datasets = ["jan.tsv", "feb.tsv", "mar.tsv", "apr.tsv", "may.tsv", "jun.tsv", "jul.tsv", "aug.tsv", "sep.tsv", "oct.tsv", "nov.tsv", "dec.tsv"];
+var datasets = ["data/jan.tsv", "data/feb.tsv", "data/mar.tsv", "data/apr.tsv", "data/may.tsv", "data/jun.tsv", "data/jul.tsv", "data/aug.tsv", "data/sep.tsv", "data/oct.tsv", "data/nov.tsv", "data/dec.tsv"];
 var fullMonths = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
 
